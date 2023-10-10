@@ -18,14 +18,14 @@
             <h1>Qr Code Generator</h1>
             <p>Enter a URL to create your QR code</p>
             <form class="form">
-                <input class="url-input" type="url" placeholder="Enter your URL">
+                <input class="url-input" type="url" placeholder="Enter your URL" required>
                 <div class="color-container">
                     <label for="bg-color">Background Colour:</label>
-                    <input type="color" id="bg-color" value="#ffffff">
+                    <input class="color-picker" type="color" id="bg-color" value="#ffffff">
                 </div>
                 <div class="color-container">
                     <label for="qr-color">Qr Code Colour:</label>
-                    <input type="color" id="qr-color" value="#000000">
+                    <input class="color-picker" type="color" id="qr-color" value="#000000">
                 </div>
                 <button class="submit-btn" type="submit">Generate QR Code</button>
                 <button class="reset-btn" type="submit">Start Again</button>
