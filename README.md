@@ -6,7 +6,7 @@ A simple QR code generator using the fetch API to generate a qr code for a given
 
 ## Live Website
 
-https://qrcodegenerator-cjw.netlify.app
+[https://qrcodegeneratorcjw.netlify.app](https://qrcodegeneratorcjw.netlify.app)
 
 
 ## Created with:
